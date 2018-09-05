@@ -14,3 +14,9 @@
 
 * `position: fixed` and `position: absolute` both take the element out of the document flow.
 
+* There is a display bug when using images inside a `div` which is set to `display: inline-block`. A small white border will appear on the bottom of the image. To solve this, setting the image to have the `vertical-align: top` property will fix the issue.
+
+* `linear gradients` are treated as images.
+
+* When using multiple backgrounds, only one `color` based background can be used. However, multiple `url(...)` based backgrounds can be used. The `color` based background must be on the bottom.
+
