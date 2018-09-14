@@ -20,3 +20,9 @@
 
 * When using multiple backgrounds, only one `color` based background can be used. However, multiple `url(...)` based backgrounds can be used. The `color` based background must be on the bottom.
 
+#Flexbox
+
+* Difference between `align-items` and justify-content:
+The `align-items` property of the flex-box aligns the items inside a flex container along the cross axis just like `justify-content` does along the main axis.
+Source: [StackOverflow] (https://stackoverflow.com/questions/27539262/whats-the-difference-between-align-content-and-align-items)
+
